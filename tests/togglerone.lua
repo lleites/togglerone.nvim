@@ -1,7 +1,7 @@
 local mock = require("luassert.mock")
 local stub = require("luassert.stub")
 local spy = require("luassert.spy")
-local t = require("custom.togglerone.lua.togglerone")
+local t = require("togglerone")
 describe("Main tests", function()
 	it("Registers toggle", function()
 		local toogle_func = t.toggle_map("pwd", "ls")
